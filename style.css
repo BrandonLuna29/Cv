@@ -1,0 +1,71 @@
+body {
+    background-color: #10375C;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+.about {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-left: 1.5rem;
+    background-color: #19478d;
+    height: 95vh;
+    margin-top: 1.5rem;
+    width: 80vh;
+    font-size: 1.5em;
+}
+
+.experience {
+    font-size: 1rem;
+    opacity: 0.5;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 2fr;
+    gap: 2rem;
+}
+
+.box1 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    background-color: #19478d;
+    height: 95vh;
+    margin-top: 1.5rem;
+    width: 90vh;
+    font-size: 1.4em;
+}
+
+
+.from {
+    font-size: 1rem;
+    opacity: 0.5;
+}
+
+.title {
+    color: #F3C623;
+}
+
+.box1:hover  {
+    background: #4880d4;
+    cursor: pointer;
+}
+
+.box2:hover {
+    background: #4880d4;
+    cursor: pointer;
+}
+
+.about:hover {
+    background: #4880d4;
+    cursor: pointer;
+}
+
+.filler:hover {
+    background: #4880d4;
+    cursor: pointer;
+}
