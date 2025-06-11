@@ -12,9 +12,7 @@ body {
     padding-left: 2rem;
     margin-left: 1.5rem;
     background-color: #19478d;
-    height: 95vh;
     margin-top: 1.5rem;
-    width: 80vh;
     font-size: 1.5em;
 }
 
@@ -25,7 +23,7 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-columns: 2fr 2fr;
     grid-template-rows: 2fr;
     gap: 2rem;
 }
@@ -34,10 +32,9 @@ body {
     padding-right: 2rem;
     padding-left: 2rem;
     background-color: #19478d;
-    height: 95vh;
     margin-top: 1.5rem;
-    width: 90vh;
     font-size: 1.4em;
+    margin-right: 2rem;
 }
 
 
@@ -68,4 +65,12 @@ body {
 .filler:hover {
     background: #4880d4;
     cursor: pointer;
+}
+
+hr {
+    background-color: #10375C;
+    border-color: #10375C;
+    height: 5px;
+    margin-left: -32px;
+    margin-right: -32px;
 }
