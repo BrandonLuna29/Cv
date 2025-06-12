@@ -14,26 +14,53 @@ body {
     background-color: #19478d;
     margin-top: 1.5rem;
     font-size: 1.5em;
-}
+    max-height: 360px;
+    overflow: auto;
+    max-width: 735px;
+}   
 
-.experience {
+.opacity {
     font-size: 1rem;
     opacity: 0.5;
 }
 
 .container {
     display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-template-rows: 2fr;
-    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px 500px ;
+    gap: 15px;
 }
 
-.box1 {
+.experience {
     padding-right: 2rem;
     padding-left: 2rem;
     background-color: #19478d;
     margin-top: 1.5rem;
     font-size: 1.4em;
+    margin-right: 2rem;
+    height: 360px;
+    overflow: auto;
+
+}
+.contact {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    background-color: #19478d;
+    font-size: 1.4em;
+    margin-right: 2rem;
+    grid-row: 2 / 2;
+    height: 500px;
+    margin-left: 1.5rem;
+    overflow: auto;
+}
+
+.education {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    background-color: #19478d;
+    font-size: 1.5em;
+    height: 650px; 
+    overflow: auto;
     margin-right: 2rem;
 }
 
@@ -47,30 +74,23 @@ body {
     color: #F3C623;
 }
 
-.box1:hover  {
-    background: #4880d4;
+.experience:hover  {
+    background: #115ca1;
     cursor: pointer;
 }
 
-.box2:hover {
-    background: #4880d4;
+.contact:hover {
+    background: #115ca1;
     cursor: pointer;
 }
 
 .about:hover {
-    background: #4880d4;
+    background: #115ca1;
     cursor: pointer;
 }
 
-.filler:hover {
-    background: #4880d4;
+.education:hover {
+    background: #115ca1;
     cursor: pointer;
 }
 
-hr {
-    background-color: #10375C;
-    border-color: #10375C;
-    height: 5px;
-    margin-left: -32px;
-    margin-right: -32px;
-}
