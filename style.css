@@ -15,6 +15,7 @@ body {
     margin-top: 1.5rem;
     font-size: 1.5em;
     overflow: auto;
+    max-width: 86%;
 }   
 
 .opacity {
@@ -24,8 +25,8 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 400px 500px ;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 40% 65% ;
     gap: 15px;
 }
 
@@ -48,6 +49,8 @@ body {
     grid-row: 2 / 2;
     margin-left: 1.5rem;
     overflow: auto;
+    height: 80%;
+    
 }
 
 .education {
@@ -55,8 +58,8 @@ body {
     padding-left: 2rem;
     background-color: #19478d;
     font-size: 1.5em;
-    overflow: auto;
     margin-right: 2rem;
+    overflow: auto;
 }
 
 
