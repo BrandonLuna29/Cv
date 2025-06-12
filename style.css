@@ -14,9 +14,7 @@ body {
     background-color: #19478d;
     margin-top: 1.5rem;
     font-size: 1.5em;
-    max-height: 360px;
     overflow: auto;
-    max-width: 735px;
 }   
 
 .opacity {
@@ -38,7 +36,6 @@ body {
     margin-top: 1.5rem;
     font-size: 1.4em;
     margin-right: 2rem;
-    height: 360px;
     overflow: auto;
 
 }
@@ -49,7 +46,6 @@ body {
     font-size: 1.4em;
     margin-right: 2rem;
     grid-row: 2 / 2;
-    height: 500px;
     margin-left: 1.5rem;
     overflow: auto;
 }
@@ -59,7 +55,6 @@ body {
     padding-left: 2rem;
     background-color: #19478d;
     font-size: 1.5em;
-    height: 650px; 
     overflow: auto;
     margin-right: 2rem;
 }
