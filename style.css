@@ -1,3 +1,5 @@
+*, *::before, *::after { box-sizing: border-box;}
+
 body {
     background-color: #10375C;
     color: whitesmoke;
@@ -8,14 +10,14 @@ body {
 }
 
 .about {
-    padding-right: 2rem;
-    padding-left: 2rem;
-    margin-left: 1.5rem;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 20px;
     background-color: #19478d;
-    margin-top: 1.5rem;
-    font-size: 1.5em;
+    margin-top: 40px;
+    font-size: 25px;
     overflow: auto;
-    max-width: 86%;
+
 }   
 
 .opacity {
@@ -39,34 +41,35 @@ body {
 }
 
 .experience {
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 20px;
     background-color: #19478d;
-    margin-top: 1.5rem;
-    font-size: 1.4em;
-    margin-right: 2rem;
+    margin-top: 40px;
+    font-size: 25px;
     overflow: auto;
-
+    margin-right: 20px;
 }
 .contact {
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 20px;
     background-color: #19478d;
-    font-size: 1.4em;
-    margin-right: 2rem;
-    margin-left: 1.5rem;
+    margin-top: 30px;
+    font-size: 25px;
     overflow: auto;
-    height: 85%;
     
 }
 
 .education {
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 20px;
     background-color: #19478d;
-    font-size: 1.5em;
-    margin-right: 2rem;
+    margin-top: 30px;
+    font-size: 25px;
     overflow: auto;
+    margin-right: 20px;
 }
 
 
