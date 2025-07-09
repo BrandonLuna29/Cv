@@ -1,7 +1,7 @@
 *, *::before, *::after { box-sizing: border-box;}
 
 body {
-    background-color: #10375C;
+    background-color: #424242;
     color: whitesmoke;
     margin: 0;
     padding: 0;
@@ -13,9 +13,9 @@ body {
     padding-right: 30px;
     padding-left: 30px;
     margin-left: 20px;
-    background-color: #19478d;
+    background-color: #229799;
     margin-top: 40px;
-    font-size: 25px;
+    font-size: 1.4rem;
     overflow: auto;
 
 }   
@@ -44,9 +44,9 @@ body {
     padding-right: 30px;
     padding-left: 30px;
     margin-left: 20px;
-    background-color: #19478d;
+    background-color: #229799;
     margin-top: 40px;
-    font-size: 25px;
+    font-size: 1.4rem;
     overflow: auto;
     margin-right: 20px;
 }
@@ -54,9 +54,9 @@ body {
     padding-right: 30px;
     padding-left: 30px;
     margin-left: 20px;
-    background-color: #19478d;
+    background-color: #229799;
     margin-top: 30px;
-    font-size: 25px;
+    font-size: 1.4rem;
     overflow: auto;
     
 }
@@ -65,9 +65,9 @@ body {
     padding-right: 30px;
     padding-left: 30px;
     margin-left: 20px;
-    background-color: #19478d;
+    background-color: #229799;
     margin-top: 30px;
-    font-size: 25px;
+    font-size: 1.4rem;
     overflow: auto;
     margin-right: 20px;
 }
@@ -79,26 +79,26 @@ body {
 }
 
 .title {
-    color: #F3C623;
+    color: #424242;
 }
 
 .experience:hover  {
-    background: #115ca1;
+    background: #48CFCB;
     cursor: pointer;
 }
 
 .contact:hover {
-    background: #115ca1;
+    background: #48CFCB;
     cursor: pointer;
 }
 
 .about:hover {
-    background: #115ca1;
+    background: #48CFCB;
     cursor: pointer;
 }
 
 .education:hover {
-    background: #115ca1;
+    background: #48CFCB;
     cursor: pointer;
 }
-
+ 
